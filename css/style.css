@@ -1,0 +1,97 @@
+/* Общие стили для тела страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Стиль для верхушки сайта */
+header {
+    background-color: #e8f5e9;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Стиль для базы сайта */
+main {
+    padding: 20px;
+}
+/* Стиль для отдельных контейнеров */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+/* Стиль для подвала сайта */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Стиль для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(3, 255, 112);
+    margin-bottom: 20px;
+}
+/* Стиль для ячеек в таблице */
+th, td {
+    border: 1px solid #000; 
+    padding: 8px;
+    text-align: left;
+}
+/* Стиль для заголовков */
+th {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+/* Стиль для изображений */
+.gallery-image {
+    width: 250px;
+    height: 250px;
+    margin: 5px; 
+}
+
+/* Стили для формы */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* Стиль для навания полей ввода информации */
+label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+/* Стиль для полей ввода инормации */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+/* Стиль для кнопок */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Стиль для для кнопки при наведении */
+button:hover {
+    background-color: #45a049;
+}
